@@ -1,0 +1,17 @@
+{
+  "/api/self/route": "app/api/self/route.js",
+  "/api/product/route": "app/api/product/route.js",
+  "/api/notifications/route": "app/api/notifications/route.js",
+  "/api/statistics/count/route": "app/api/statistics/count/route.js",
+  "/api/dashboard/chart/route": "app/api/dashboard/chart/route.js",
+  "/api/store/route": "app/api/store/route.js",
+  "/api/order/route": "app/api/order/route.js",
+  "/api/review/route": "app/api/review/route.js",
+  "/api/blog/route": "app/api/blog/route.js",
+  "/api/category/route": "app/api/category/route.js",
+  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
+  "/[lng]/(MainLayout)/user/create/page": "app/[lng]/(MainLayout)/user/create/page.js",
+  "/[lng]/(MainLayout)/product/create/page": "app/[lng]/(MainLayout)/product/create/page.js",
+  "/[lng]/(MainLayout)/product/page": "app/[lng]/(MainLayout)/product/page.js",
+  "/[lng]/(AuthLayout)/auth/login/page": "app/[lng]/(AuthLayout)/auth/login/page.js"
+}
