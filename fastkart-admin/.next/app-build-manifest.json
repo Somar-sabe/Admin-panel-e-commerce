@@ -40,6 +40,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[lng]/(AuthLayout)/auth/login/page.js"
+    ],
+    "/[lng]/(MainLayout)/page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/page/page.js"
+    ],
+    "/[lng]/(MainLayout)/tax/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/tax/page.js"
+    ],
+    "/[lng]/(MainLayout)/attribute/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/attribute/page.js"
     ]
   }
 }
