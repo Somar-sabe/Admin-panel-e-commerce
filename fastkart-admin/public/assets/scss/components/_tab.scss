@@ -4,7 +4,7 @@
 .nav-pills {
     .nav-link.active,
     .show > .nav-link {
-        background-color: var(--theme-color);
+        background-color: #EBA800;
     }
 }
 
@@ -19,7 +19,7 @@
 }
 
 $nav-name: theme, primary, secondary, success, danger, info, light, dark, warning;
-$nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-color, $danger-color, $info-color,
+$nav-color: #EBA800, #EBA800, $secondary-color, $success-color, $danger-color, $info-color,
     $light-color, $dark-color, $warning-color;
 
 @each $var in $nav-name {
@@ -78,7 +78,7 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
             &.show,
             &:focus,
             &:hover {
-                color: var(--theme-color);
+                color: #EBA800;
             }
 
             &.active,
@@ -100,8 +100,8 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
     .nav-link.active,
     .show > .nav-link {
         background-color: transparent;
-        border-left-color: var(--theme-color);
-        color: var(--theme-color);
+        border-left-color: #EBA800;
+        color: #EBA800;
         border-radius: 0;
         transition: all 0.3s ease;
     }
@@ -118,15 +118,15 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
     .nav-link.active,
     .show > .nav-link {
         background-color: transparent;
-        border-right-color: var(--theme-color);
-        color: var(--theme-color);
+        border-right-color: #EBA800;
+        color: #EBA800;
         border-radius: 0;
         transition: all 0.3s ease;
     }
 }
 
 $m-nav-name: theme, primary, secondary, success, danger, info, light, dark, warning;
-$nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-color, $danger-color, $info-color,
+$nav-color: #EBA800, #EBA800, $secondary-color, $success-color, $danger-color, $info-color,
     $light-color, $dark-color, $warning-color;
 
 @each $var in $m-nav-name {
@@ -223,7 +223,7 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
                 left: 0;
                 width: 100%;
                 height: 1px;
-                background-color: var(--theme-color);
+                background-color: #EBA800;
                 opacity: 0;
             }
 
@@ -341,11 +341,11 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
                 font-weight: 500;
                 &.active {
                     background: transparent;
-                    color: var(--theme-color);
+                    color: #EBA800;
                     border-radius: 0;
                     font-weight: 600;
                     border: none;
-                    border-bottom: 2px solid var(--theme-color);
+                    border-bottom: 2px solid #EBA800;
                 }
             }
             + .nav-item {
@@ -372,8 +372,8 @@ $nav-color: var(--theme-color), var(--theme-color), $secondary-color, $success-c
                 gap: 10px;
                 &.active {
                     background: transparent;
-                    color: var(--theme-color);
-                    border-bottom: 2px solid var(--theme-color);
+                    color: #EBA800;
+                    border-bottom: 2px solid #EBA800;
                     border-radius: 0;
                     font-weight: 700;
                 }

@@ -50,19 +50,19 @@
     background: transparent;
     transition: all 0.3s ease;
     position: relative;
-    background: var(--theme-color);
+    background: #EBA800;
     border: none;
     z-index: 0;
     padding: calc(7px + (12 - 7) * ((100vw - 320px) / (1920 - 320))) calc(14px + (32 - 14) * ((100vw - 320px) / (1920 - 320))) !important;
-    border: 1px solid var(--theme-color);
+    border: 1px solid #EBA800;
 
     i {
       transition: 0.3s ease;
     }
 
     &:hover {
-      color: var(--theme-color) !important;
-      border-color: var(--theme-color);
+      color: #EBA800 !important;
+      border-color: #EBA800;
 
       i {
         transform: translateX(3px);
@@ -133,8 +133,8 @@
 }
 
 .btn-outline {
-  border: 1px solid var(--theme-color);
-  color: var(--theme-color);
+  border: 1px solid #EBA800;
+  color: #EBA800;
   background-color: white !important;
 }
 
@@ -543,7 +543,7 @@ $btn-color in (primary, $primary-color),
   background-color: $primary-color !important;
   color: $white;
   display: flex;
-  border: 1px solid var(--theme-color) !important;
+  border: 1px solid #EBA800 !important;
 
   .position-relative {
     display: flex;
@@ -557,9 +557,9 @@ $btn-color in (primary, $primary-color),
   }
 
   &:hover {
-    color: var(--theme-color) !important;
+    color: #EBA800 !important;
     background-color: $white !important;
-    border: 1px solid var(--theme-color) !important;
+    border: 1px solid #EBA800 !important;
   }
 }
 
@@ -633,8 +633,8 @@ $btn-color in (primary, $primary-color),
 
 .save-back-button {
   .btn-primary {
-    background-color: var(--theme-color) !important;
-    border: 1px solid var(--theme-color) !important;
+    background-color: #EBA800 !important;
+    border: 1px solid #EBA800 !important;
     transition: all 0.5s ease;
 
     &:hover {
@@ -644,8 +644,8 @@ $btn-color in (primary, $primary-color),
   }
 
   .btn-outline {
-    border: 1px solid var(--theme-color) !important;
-    color: var(--theme-color) !important;
+    border: 1px solid #EBA800 !important;
+    color: #EBA800 !important;
     background-color: $white !important;
     transition: all 0.5s ease;
 

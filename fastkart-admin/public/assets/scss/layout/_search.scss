@@ -4,7 +4,7 @@
 .search-page {
     .theme-form {
         input {
-            border: 1px solid var(--theme-color);
+            border: 1px solid #EBA800;
             padding-left: 20px;
             border-radius: 10px 0 0 10px;
             flex: 1 1 auto;
@@ -150,7 +150,7 @@
 
             &.active {
                 background-color: rgba($primary-color, 0.1);
-                color: var(--theme-color);
+                color: #EBA800;
                 opacity: 1;
             }
         }

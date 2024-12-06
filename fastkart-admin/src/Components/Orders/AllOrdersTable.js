@@ -1,52 +1,86 @@
-import { useContext, useMemo } from 'react'
-import { useRouter } from 'next/navigation'
-import TableWarper from '../../Utils/HOC/TableWarper'
-import ShowTable from '../Table/ShowTable'
-import I18NextContext from '@/Helper/I18NextContext'
-import { useTranslation } from '@/app/i18n/client'
+"use client";
+import { useEffect, useState } from "react";
+import Link from "next/link";
 
-const AllOrdersTable = ({ data, ...props }) => {
-    const { i18Lang } = useContext(I18NextContext);
-    const { t } = useTranslation(i18Lang, 'common');
-    const router = useRouter()
-    const getSpanTag = (number) => {
-        return <span className="fw-bolder">#{number}</span>;
+const OrdersPage = () => {
+  const [orders, setOrders] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchOrders = async () => {
+      try {
+        const res = await fetch("/api/orderb");
+        if (!res.ok) {
+          throw new Error("Failed to fetch orders");
+        }
+        const data = await res.json();
+        if (data.success) {
+          const sortedOrders = data.orders.sort(
+            (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+          );
+          setOrders(sortedOrders);
+        } else {
+          throw new Error(data.message);
+        }
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
     };
-    const headerObj = {
-        checkBox: false,
-        isOption: true,
-        optionHead: { title: "Action", type: 'View', redirectUrl: "/order/details", modalTitle: t("Orders") },
-        column: [
-            { title: "OrderNumber", apiKey: "order_number" },
-            { title: "OrderDate", apiKey: "created_at", sorting: true, sortBy: "desc", type: "date" },
-            { title: "CustomerName", apiKey: "consumer", subKey: ["name"] },
-            { title: "TotalAmount", apiKey: "total", type: 'price' },
-            { title: "PaymentStatus", apiKey: "payment_status" },
-            { title: "PaymentMode", apiKey: "payment_method" }
-        ],
-        data: data || []
-    };
-    let orders = useMemo(() => {
-        return headerObj?.data?.filter((element) => {
-            element.order_number = getSpanTag(element.order_number);
-            element.payment_status = element.payment_status ? <div className={`status-${element?.payment_status.toString().toLowerCase() || ''}`}><span>{element?.payment_status}</span></div> : '-';
-            element.payment_mode = element.payment_method ? <div className="payment-mode"><span>{element?.payment_method}</span></div> : '-';
-            element.consumer_name = <span className="text-capitalize">{element.consumer.name}</span>;
-            return element;
-        });
-    }, [headerObj?.data]);
-    headerObj.data = headerObj ? orders : [];
 
-    const redirectLink = (data) => {
-        const order_number = data?.order_number?.props?.children?.[1]
-        router.push(`/${i18Lang}/order/details/${order_number}`)
-    }
-    if (!data) return null;
-    return (
-        <>
-            <ShowTable {...props} headerData={headerObj} redirectLink={redirectLink} />
-        </>
-    )
-}
+    fetchOrders();
+  }, []);
 
-export default TableWarper(AllOrdersTable)
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Orders</h1>
+      {loading ? (
+        <p>Loading...</p>
+      ) : error ? (
+        <p style={{ color: "red" }}>{error}</p>
+      ) : (
+        <div className="table-responsive">
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">Order</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Total</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {orders.length > 0 ? (
+                orders.map((order) => (
+                  <tr key={order._id}>
+                    <th scope="row">#{order.orderId}</th>
+                    <td>{new Date(order.createdAt).toLocaleDateString()}</td>
+                    <td>{order.status || "Processing"}</td>
+                    <td>{order.totalAmount} AED</td>
+                    <td>
+                      <Link
+                        href={`/dashboard/orders/view/${order.orderId}`}
+                        className="axil-btn view-btn"
+                      >
+                        View
+                      </Link>
+                    </td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="5">No orders found</td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default OrdersPage;

@@ -12,7 +12,7 @@
 		display: none;
 
 		&:checked + .switch-state {
-			background-color: var(--theme-color);
+			background-color: #EBA800;
 
 			&:before {
 				transform: translateX(26px);
@@ -20,7 +20,7 @@
 		}
 
 		&:focus + .switch-state {
-			box-shadow: 0 0 1px var(--theme-color);
+			box-shadow: 0 0 1px #EBA800;
 		}
 	}
 

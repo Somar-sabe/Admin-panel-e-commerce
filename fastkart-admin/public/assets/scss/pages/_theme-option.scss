@@ -87,7 +87,7 @@
 
   :checked {
     + label {
-      border-color: var(--theme-color);
+      border-color: #EBA800;
       &:after {
         content: "";
         position: absolute;
@@ -103,8 +103,8 @@
       &:before {
         content: "";
         border-radius: 100%;
-        background-color: var(--theme-color);
-        border-color: var(--theme-color);
+        background-color: #EBA800;
+        border-color: #EBA800;
         opacity: 1;
         visibility: visible;
         z-index: 1;
@@ -135,7 +135,7 @@
     :checked {
       + label {
         img {
-          border-color: var(--theme-color);
+          border-color: #EBA800;
         }
         h4 {
           color: #1fa687;
@@ -240,13 +240,13 @@
       }
       a {
         background-color: $white;
-        color: var(--theme-color);
+        color: #EBA800;
         padding: 5px 15px;
         border-radius: 5px;
-        border: 1px solid var(--theme-color);
+        border: 1px solid #EBA800;
         &:hover {
           color: $white;
-          background-color: var(--theme-color);
+          background-color: #EBA800;
         }
       }
     }
@@ -260,11 +260,11 @@
       }
     }
     &.active {
-      border-color: var(--theme-color);
+      border-color: #EBA800;
       .content-sec {
         a {
           color: $white;
-          background-color: var(--theme-color);
+          background-color: #EBA800;
         }
       }
     }

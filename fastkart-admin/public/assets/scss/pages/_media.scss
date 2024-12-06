@@ -25,7 +25,7 @@
         font-size: 15px;
 
         &:hover {
-          color: var(--theme-color);
+          color: #EBA800;
         }
       }
     }
@@ -146,13 +146,13 @@
   }
 
   :checked + label {
-    border-color: var(--theme-color);
+    border-color: #EBA800;
   }
 
   :checked + label:before {
     content: '✓';
-    background-color: var(--theme-color);
-    border-color: var(--theme-color);
+    background-color: #EBA800;
+    border-color: #EBA800;
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
@@ -293,7 +293,7 @@
       @include flex_common;
       flex-wrap: wrap;
       padding: 0;
-      border: 1px dashed var(--theme-color);
+      border: 1px dashed #EBA800;
       border-radius: calc(9px + (25 - 9) * ((100vw - 320px) / (1920 - 320)));
       margin: calc(16px + (25 - 16) * ((100vw - 320px) / (1920 - 320))) 5px;
       position: relative;
@@ -305,7 +305,7 @@
         left: -22px;
         display: flex;
         .btn {
-          background-color: var(--theme-color) !important;
+          background-color: #EBA800 !important;
         }
       }
 
@@ -340,7 +340,7 @@
           display: block;
           margin-top: -15px;
           font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
-          color: var(--theme-color);
+          color: #EBA800;
         }
       }
 

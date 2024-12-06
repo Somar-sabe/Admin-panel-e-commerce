@@ -131,7 +131,7 @@
 
 .progtrckr-done {
      color: $title-color;
-     border-top: 4px solid var(--theme-color);
+     border-top: 4px solid #EBA800;
      width: 100% !important;
 
      &:first-of-type {
@@ -147,14 +147,14 @@
           align-items: self-start;
           padding-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
           border-top: unset;
-          border-left: 4px solid var(--theme-color);
+          border-left: 4px solid #EBA800;
 
           [dir="rtl"] & {
                margin-left: 0;
                margin-right: 30px;
                text-align: right;
                border-left: none;
-               border-right: 4px solid var(--theme-color);
+               border-right: 4px solid #EBA800;
                align-items: flex-end;
           }
      }
@@ -165,7 +165,7 @@
           padding-top: 2px;
           content: "\f00c";
           color: $white;
-          background-color: var(--theme-color);
+          background-color: #EBA800;
           line-height: 35px;
           border: none;
           border-radius: 35px;
@@ -312,8 +312,8 @@
 }
 
 .accented {
-     fill: var(--theme-color);
-     stroke: var(--theme-color);
+     fill: #EBA800;
+     stroke: #EBA800;
 }
 
 .tracking-panel {

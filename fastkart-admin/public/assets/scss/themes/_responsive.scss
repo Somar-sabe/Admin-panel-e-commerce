@@ -5064,7 +5064,7 @@
                 transition: all linear 0.3s;
                 left: -14px;
                 background-color: $white;
-                border: 1px solid var(--theme-color);
+                border: 1px solid #EBA800;
                 transform: translateY(-35px) scaleY(0);
                 opacity: 0;
                 visibility: hidden;
@@ -6335,7 +6335,7 @@
 
   /* alert responsive css start here */
   $alert-name: primary, secondary, success, danger, warning, info, light, dark;
-  $alert-color: var(--theme-color), $secondary-color, $success-color,
+  $alert-color: #EBA800, $secondary-color, $success-color,
     $danger-color, $warning-color, $info-color, $light-color, $dark-color;
 
   @each $var in $alert-name {
@@ -7354,7 +7354,7 @@
     background-color: transparent;
 
     path {
-      stroke: var(--theme-color);
+      stroke: #EBA800;
     }
   }
 

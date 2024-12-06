@@ -166,12 +166,12 @@
 
           > a {
             > span {
-              color: var(--theme-color);
+              color: #EBA800;
               transition: all 0.3s ease;
             }
 
             > svg {
-              stroke: var(--theme-color);
+              stroke: #EBA800;
               transition: all 0.3s ease;
             }
           }
@@ -231,7 +231,7 @@
       &.active {
         transition: all 0.3s ease;
         color: $white;
-        background-color: var(--theme-color);
+        background-color: #EBA800;
       }
 
       .according-menu {
@@ -288,7 +288,7 @@
 
         &:hover {
           a {
-            color: var(--theme-color);
+            color: #EBA800;
             letter-spacing: 1.5px;
             transition: all 0.3s ease;
           }
@@ -308,7 +308,7 @@
 
           &:hover {
             &:before {
-              background-color: var(--theme-color);
+              background-color: #EBA800;
               transition: all 0.3s ease;
             }
           }
@@ -333,7 +333,7 @@
 
           &:hover {
             &:before {
-              background-color: var(--theme-color);
+              background-color: #EBA800;
               transition: all 0.3s ease;
             }
           }
@@ -356,7 +356,7 @@
 
           &:hover {
             &:before {
-              color: var(--theme-color);
+              color: #EBA800;
               transition: all 0.3s ease;
             }
           }
@@ -384,7 +384,7 @@
 
           &:hover {
             &:before {
-              color: var(--theme-color);
+              color: #EBA800;
               transition: all 0.3s ease;
             }
           }

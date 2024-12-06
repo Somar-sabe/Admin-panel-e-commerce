@@ -1199,7 +1199,7 @@ html[dir="rtl"] {
         .input-group {
           .form-control {
             border-left: unset;
-            border-right: 1px solid var(--theme-color);
+            border-right: 1px solid #EBA800;
           }
 
           .send-msg {
@@ -1226,7 +1226,7 @@ html[dir="rtl"] {
   }
 
   @each $progress-gradient-name,
-  $progress-gradient-color in (primary, var(--theme-color)),
+  $progress-gradient-color in (primary, #EBA800),
   (secondary, $secondary-color),
   (success, $success-color),
   (danger, $danger-color),
@@ -1336,7 +1336,7 @@ html[dir="rtl"] {
 
       .progress-gradient-primary {
         background-image: linear-gradient(to right,
-            var(--theme-color) 25%,
+            #EBA800 25%,
             rgba($info-color, 0.1),
             $transparent-color);
       }

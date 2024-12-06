@@ -631,7 +631,7 @@
                 transition: all 0.3s ease;
 
                 &:hover {
-                  stroke: var(--theme-color);
+                  stroke: #EBA800;
                   transition: all 0.3s ease;
                 }
               }
@@ -736,7 +736,7 @@
               overflow: hidden;
 
               svg {
-                fill: var(--theme-color);
+                fill: #EBA800;
               }
             }
 
@@ -920,7 +920,7 @@
 
               &.active {
                 a {
-                  color: var(--theme-color);
+                  color: #EBA800;
                   font-weight: 700;
                 }
               }
@@ -952,20 +952,20 @@
             &:hover {
               a {
                 svg {
-                  stroke: var(--theme-color);
+                  stroke: #EBA800;
 
                   path {
-                    color: var(--theme-color) !important;
+                    color: #EBA800 !important;
                   }
                 }
 
                 span {
-                  color: var(--theme-color);
+                  color: #EBA800;
                   transition: color 0.3s ease;
                 }
 
                 i {
-                  color: var(--theme-color);
+                  color: #EBA800;
                 }
               }
             }
@@ -1070,7 +1070,7 @@
           }
 
           a {
-            color: var(--theme-color);
+            color: #EBA800;
 
             svg {
               width: 16px;
@@ -1197,7 +1197,7 @@
                         color: $white;
 
                         &:after {
-                          background-color: var(--theme-color);
+                          background-color: #EBA800;
                         }
                       }
                     }
@@ -1250,7 +1250,7 @@
 
                   svg,
                   span {
-                    color: var(--theme-color);
+                    color: #EBA800;
                     transition: all 0.3s ease;
                   }
                 }
@@ -1302,12 +1302,12 @@
                     }
 
                     &:hover {
-                      color: var(--theme-color);
+                      color: #EBA800;
                       letter-spacing: 1.5px;
                       transition: all 0.3s ease;
 
                       &:after {
-                        background-color: var(--theme-color);
+                        background-color: #EBA800;
                       }
                     }
                   }
@@ -1367,12 +1367,12 @@
                           transition: all 0.3s ease;
 
                           &:hover {
-                            color: var(--theme-color);
+                            color: #EBA800;
                             letter-spacing: 1.5px;
                             transition: all 0.3s ease;
 
                             &:after {
-                              color: var(--theme-color);
+                              color: #EBA800;
                               transition: all 0.3s ease;
                             }
                           }
@@ -1497,7 +1497,7 @@
     }
 
     h6 {
-      color: var(--theme-color);
+      color: #EBA800;
       margin-bottom: 5px;
       letter-spacing: 0.8px;
     }
@@ -1548,11 +1548,11 @@
           z-index: 7;
           height: 100vh;
           line-height: inherit;
-          background: var(--theme-color);
+          background: #EBA800;
           width: 280px;
           text-align: left;
           box-shadow: 0 0 21px 0 rgba($semi-dark, 0.1);
-          background: linear-gradient(-45deg, #0da487, #009289, #ffa53b);
+          background: #EBA800;
           background-size: 400% 400%;
           animation: gradient 15s ease infinite;
           overflow: hidden;
@@ -2174,11 +2174,11 @@
                     .link-section {
                       &:hover {
                         h5 {
-                          color: var(--theme-color) !important;
+                          color: #EBA800 !important;
                           transition: all 0.3s ease;
 
                           &:after {
-                            border-top: 2px solid var(--theme-color);
+                            border-top: 2px solid #EBA800;
                             transition: all 0.3s ease;
                           }
                         }
@@ -2230,7 +2230,7 @@
                               }
 
                               &.active {
-                                color: var(--theme-color);
+                                color: #EBA800;
                               }
                             }
                           }
@@ -2372,7 +2372,7 @@
     &.color-sidebar {
       .toggle-sidebar {
         svg {
-          stroke: var(--theme-color);
+          stroke: #EBA800;
         }
       }
 
@@ -2436,7 +2436,7 @@
                     }
 
                     &.active {
-                      color: var(--theme-color);
+                      color: #EBA800;
                     }
                   }
                 }
@@ -3024,7 +3024,7 @@
       }
 
       .page-title {
-        background: linear-gradient(26deg, var(--theme-color) 0%, #a26cf8 100%);
+        background: linear-gradient(26deg, #EBA800 0%, #a26cf8 100%);
         padding-left: 30px;
         padding-right: 30px;
         margin-bottom: 30px;
@@ -3396,11 +3396,11 @@
       margin: 0 -15px;
 
       h5 {
-        color: var(--theme-color);
+        color: #EBA800;
       }
 
       svg {
-        stroke: var(--theme-color) !important;
+        stroke: #EBA800 !important;
       }
     }
   }

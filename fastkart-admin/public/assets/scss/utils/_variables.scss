@@ -1,11 +1,11 @@
 :root {
     --theme-color: #0da487;
     // ck editor variables
-    --ck-color-base-active: var(--theme-color) !important;
-    --ck-color-base-active-focus: var(--theme-color) !important;
-    --ck-color-button-on-color: var(--theme-color) !important;
-    --ck-color-upload-bar-background: var(--theme-color) !important;
-    --ck-color-link-default: var(--theme-color) !important;
+    --ck-color-base-active: #EBA800 !important;
+    --ck-color-base-active-focus: #EBA800 !important;
+    --ck-color-button-on-color: #EBA800 !important;
+    --ck-color-upload-bar-background: #EBA800 !important;
+    --ck-color-link-default: #EBA800 !important;
     --ck-color-button-on-hover-background: rgba(13, 164, 134, 0.1) !important;
     --ck-color-button-on-active-background: rgba(13, 164, 134, 0.1) !important;
     --ck-color-button-on-background: rgba(13, 164, 134, 0.1) !important;
@@ -94,7 +94,7 @@ $rating-color: #ffb321;
 $border-color: #ececec;
 
 // gradient colors
-$gradient-primary: linear-gradient(26deg, var(--theme-color) 0%, #a26cf8 100%);
+$gradient-primary: linear-gradient(26deg, #EBA800 0%, #a26cf8 100%);
 
 //social colors
 $fb: #50598e;
@@ -135,15 +135,15 @@ $dark-even-hover-sorting: #191e27;
 $body-font-size: 14px;
 $body-font-color: $theme-body-font-color;
 $ul-padding-left: 0px;
-$ancher-color: var(--theme-color);
+$ancher-color: #EBA800;
 $btn-focus-box-shadow: none;
-$all-focus-outline-color: var(--theme-color);
+$all-focus-outline-color: #EBA800;
 
 $paragraph-font-size: 13px;
 $paragraph-line-height: 1.7;
 $paragraph-letter-spacing: 0.7px;
 
-$code-tag-color: var(--theme-color);
+$code-tag-color: #EBA800;
 $code-tag-bg-color: rgba($primary-color, 0.03);
 $code-tag-padding: 3px;
 $code-tag-margin: 0 3px;
@@ -158,8 +158,8 @@ $small-tag-color: $dark-color;
 $pre-tag-bg-color: rgba($primary-color, 0.03);
 $pre-tag-padding: 20px 0;
 
-$list-group-active-bg-color: var(--theme-color);
-$list-group-active-border-color: var(--theme-color);
+$list-group-active-bg-color: #EBA800;
+$list-group-active-border-color: #EBA800;
 $list-group-img-size: 40px;
 $list-group-margin: 10px;
 
@@ -255,7 +255,7 @@ $form-input-border-color: $light-semi-gray;
 $form-input-bg-color: $white;
 
 //Tour settings
-$tour-color: var(--theme-color);
+$tour-color: #EBA800;
 
 //sidabr main settings
 $sidebar-width: 255px;
@@ -268,7 +268,7 @@ $sidebar-transition: 0.5s;
 
 //sidebar profile settings
 $sidebar-profile-edit-icon-size: 14px;
-$sidebar-profile-name-txt-color: var(--theme-color);
+$sidebar-profile-name-txt-color: #EBA800;
 $sidebar-profile-name-txt-transfer: uppercase;
 $sidebar-profile-name-txt-weight: 600;
 $sidebar-profile-name-letter-specing: 1.5px;
@@ -294,7 +294,7 @@ $sidebar-padding-bottom: 12px;
 $sidebar-sub-header-padding: 15px;
 $sidebar-sub-header-margin: 0;
 $sidebar-heading-hover-padding: 5px;
-$sidebar-hover-txt-color: var(--theme-color);
+$sidebar-hover-txt-color: #EBA800;
 $sidebar-arrow-margin-top: 2px;
 $sidebar-arrow-size: 15px;
 $sidebar-arrow-color: $theme-body-font-color;

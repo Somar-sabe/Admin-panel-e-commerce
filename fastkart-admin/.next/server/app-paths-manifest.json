@@ -1,7 +1,8 @@
 {
-  "/[lng]/(MainLayout)/user/create/page": "app/[lng]/(MainLayout)/user/create/page.js",
-  "/[lng]/(MainLayout)/user/page": "app/[lng]/(MainLayout)/user/page.js",
+  "/not-found": "app/not-found.js",
+  "/[lng]/(MainLayout)/page/page": "app/[lng]/(MainLayout)/page/page.js",
+  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
+  "/[lng]/(MainLayout)/order/page": "app/[lng]/(MainLayout)/order/page.js",
   "/[lng]/(MainLayout)/point/page": "app/[lng]/(MainLayout)/point/page.js",
-  "/[lng]/(MainLayout)/wallet/page": "app/[lng]/(MainLayout)/wallet/page.js",
-  "/[lng]/(MainLayout)/page/page": "app/[lng]/(MainLayout)/page/page.js"
+  "/[lng]/(MainLayout)/wallet/page": "app/[lng]/(MainLayout)/wallet/page.js"
 }

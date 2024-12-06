@@ -65,17 +65,17 @@
     margin-top: 10px;
 
     .paginate_button {
-      color: var(--theme-color) !important;
+      color: #EBA800 !important;
 
       &:hover {
-        color: var(--theme-color) !important;
+        color: #EBA800 !important;
         border: none;
         background: none;
       }
 
       &.disabled,
       &:active {
-        color: var(--theme-color) !important;
+        color: #EBA800 !important;
         border: 1px solid transparent;
         background: transparent;
         box-shadow: none;
@@ -85,15 +85,15 @@
 
       &.current {
         color: $white !important;
-        background: var(--theme-color);
-        border-color: var(--theme-color);
+        background: #EBA800;
+        border-color: #EBA800;
         z-index: 0;
         border: none;
 
         &:hover {
           color: $white !important;
           border: none;
-          background: var(--theme-color);
+          background: #EBA800;
         }
       }
     }
@@ -319,7 +319,7 @@ th {
       i,
       svg {
         font-size: 18px;
-        color: var(--theme-color);
+        color: #EBA800;
         font-weight: normal;
       }
 
@@ -616,7 +616,7 @@ table {
         &:nth-child(2),
         &:nth-child(5) {
           font-weight: 800;
-          color: var(--theme-color);
+          color: #EBA800;
         }
 
         &:nth-child(2),
@@ -742,7 +742,7 @@ table {
 
             &.warning {
               background-color: rgba(226, 36, 84, 0.1);
-              color: var(--theme-color);
+              color: #EBA800;
             }
           }
         }
@@ -827,7 +827,7 @@ table {
         &.status-danger {
           span {
             background-color: rgba($color: #0da487, $alpha: 0.15);
-            color: var(--theme-color);
+            color: #EBA800;
             padding: 5px 10px;
             text-transform: capitalize;
             display: inline-block;
@@ -893,7 +893,7 @@ table {
         }
 
         &:nth-child(7) {
-          color: var(--theme-color);
+          color: #EBA800;
         }
 
         &:last-child {
@@ -1008,7 +1008,7 @@ table {
           font-size: 18px;
 
           &.lost {
-            color: var(--theme-color);
+            color: #EBA800;
           }
 
           &.success {
@@ -1101,7 +1101,7 @@ table {
     tr {
       td {
         &:nth-child(3) {
-          color: var(--theme-color);
+          color: #EBA800;
         }
       }
     }
@@ -1416,7 +1416,7 @@ table {
           }
 
           .ri-pencil-line {
-            color: var(--theme-color);
+            color: #EBA800;
           }
 
           .ri-delete-bin-line {
@@ -1450,7 +1450,7 @@ table {
       &:last-child {
         td {
           h5 {
-            color: var(--theme-color) !important;
+            color: #EBA800 !important;
             font-weight: 800;
           }
         }
@@ -1709,7 +1709,7 @@ table {
           border-top: 0;
           border-bottom: 1px solid $light-blue !important;
           padding: 0.75rem 1.25rem;
-          background-color: var(--theme-color);
+          background-color: #EBA800;
 
           a {
             color: $white !important;
@@ -2247,7 +2247,7 @@ table {
       }
 
       &.active {
-        background-color: var(--theme-color);
+        background-color: #EBA800;
         color: $white !important;
         border-color: transparent;
         border-radius: 5px;

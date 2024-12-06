@@ -85,7 +85,7 @@
       h3 {
         margin-bottom: calc(1px + (6 - 1) * ((100vw - 320px) / (1920 - 320)));
         font-size: calc(18px + (21 - 18) * ((100vw - 320px) / (1920 - 320)));
-        color: var(--theme-color);
+        color: #EBA800;
         font-weight: 600;
       }
 
@@ -154,7 +154,7 @@
 
         span {
           font-weight: 500;
-          color: var(--theme-color);
+          color: #EBA800;
         }
       }
     }
@@ -165,7 +165,7 @@
       display: block;
 
       &:hover {
-        color: var(--theme-color);
+        color: #EBA800;
       }
     }
 
@@ -210,7 +210,7 @@
         display: block;
 
         &:hover {
-          color: var(--theme-color);
+          color: #EBA800;
         }
       }
     }
