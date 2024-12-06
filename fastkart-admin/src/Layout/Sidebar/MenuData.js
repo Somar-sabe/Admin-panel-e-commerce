@@ -33,20 +33,7 @@ const MENUITEMS = [
       { title: "Q&A", path: "/qna", displayTitle: "All Tag", permission: ["question_and_answer.index", "question_and_answer.create"] },
     ],
   },
-  {
-    title: "Stores",
-    displayTitle: "Store",
-    icon: <RiStore2Line />,
-    type: "sub",
-    children: [
-      { title: "AddStore", path: "/store/create", displayTitle: "Add Store", permission: ["store.create"] },
-      { title: "AllStores", path: "/store", displayTitle: "All Stores", badgeType: 'badge bg-warning text-dark ml-3', badgeValue: 0, permission: ["store.index"] },
-      { title: "Wallet", path: "/vendor_wallet", displayTitle: "Wallets", permission: ["vendor_wallet.index"] },
-      { title: "CommissionHistory", path: "/commission_history", displayTitle: "Commission History", permission: ["commission_history.index"] },
-      { title: "PaymentDetails", path: "/payment_account", displayTitle: "Payment Details", permission: ["payment_account.create"] },
-      { title: "Withdrawal", displayTitle: "Withdrawal", path: "/withdraw_request", badgeType: 'badge bg-warning text-dark ml-3', badgeValue: 0, permission: ["withdraw_request.index"] },
-    ],
-  },
+
   {
     title: "Orders",
     displayTitle: "Orders",
