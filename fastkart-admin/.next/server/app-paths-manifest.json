@@ -1,14 +1,9 @@
 {
-  "/api/self/route": "app/api/self/route.js",
-  "/api/store/route": "app/api/store/route.js",
-  "/api/category/route": "app/api/category/route.js",
-  "/api/tag/route": "app/api/tag/route.js",
-  "/api/tax/route": "app/api/tax/route.js",
-  "/api/attribute/route": "app/api/attribute/route.js",
+  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
+  "/[lng]/(MainLayout)/attachment/page": "app/[lng]/(MainLayout)/attachment/page.js",
   "/[lng]/(MainLayout)/user/create/page": "app/[lng]/(MainLayout)/user/create/page.js",
-  "/[lng]/(MainLayout)/product/create/page": "app/[lng]/(MainLayout)/product/create/page.js",
-  "/[lng]/(MainLayout)/product/page": "app/[lng]/(MainLayout)/product/page.js",
-  "/[lng]/(AuthLayout)/auth/login/page": "app/[lng]/(AuthLayout)/auth/login/page.js",
-  "/[lng]/(MainLayout)/tax/page": "app/[lng]/(MainLayout)/tax/page.js",
-  "/[lng]/(MainLayout)/attribute/page": "app/[lng]/(MainLayout)/attribute/page.js"
+  "/[lng]/(MainLayout)/user/page": "app/[lng]/(MainLayout)/user/page.js",
+  "/[lng]/(MainLayout)/wallet/page": "app/[lng]/(MainLayout)/wallet/page.js",
+  "/[lng]/(MainLayout)/point/page": "app/[lng]/(MainLayout)/point/page.js",
+  "/[lng]/(MainLayout)/page/page": "app/[lng]/(MainLayout)/page/page.js"
 }

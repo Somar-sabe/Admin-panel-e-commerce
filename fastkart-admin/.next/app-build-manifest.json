@@ -16,45 +16,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[lng]/(MainLayout)/dashboard/page.js"
     ],
+    "/[lng]/(MainLayout)/attachment/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/attachment/page.js"
+    ],
     "/[lng]/(MainLayout)/user/create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[lng]/(MainLayout)/user/create/page.js"
     ],
-    "/[lng]/(MainLayout)/product/create/page": [
+    "/[lng]/(MainLayout)/user/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(MainLayout)/product/create/page.js"
+      "static/chunks/app/[lng]/(MainLayout)/user/page.js"
     ],
-    "/[lng]/(MainLayout)/product/page": [
+    "/[lng]/(MainLayout)/wallet/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(MainLayout)/product/page.js"
+      "static/chunks/app/[lng]/(MainLayout)/wallet/page.js"
     ],
-    "/[lng]/(AuthLayout)/layout": [
+    "/[lng]/(MainLayout)/point/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(AuthLayout)/layout.js"
-    ],
-    "/[lng]/(AuthLayout)/auth/login/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(AuthLayout)/auth/login/page.js"
+      "static/chunks/app/[lng]/(MainLayout)/point/page.js"
     ],
     "/[lng]/(MainLayout)/page/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[lng]/(MainLayout)/page/page.js"
-    ],
-    "/[lng]/(MainLayout)/tax/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(MainLayout)/tax/page.js"
-    ],
-    "/[lng]/(MainLayout)/attribute/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[lng]/(MainLayout)/attribute/page.js"
     ]
   }
 }
