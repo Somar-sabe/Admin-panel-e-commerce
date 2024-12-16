@@ -12748,7 +12748,7 @@ textarea.form-control-lg {
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[13].use[5]!./node_modules/slick-carousel/slick/slick-theme.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-
+@charset "UTF-8";
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url(/_next/static/media/ajax-loader.0b80f665.gif) center center no-repeat;
@@ -13475,7 +13475,7 @@ textarea.form-control-lg {
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[13].use[5]!./public/assets/scss/app.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-
+@charset "UTF-8";
 /*! -----------------------------------------------------------------------------------
     Template Name: Fastkart Admin
     Template URI: http://admin.pixelstrap.com/Fastkart/theme
@@ -41478,15 +41478,15 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1) svg {
-  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+1):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2) svg {
@@ -41494,51 +41494,51 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+2):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3):hover a svg {
-  stroke: white !important;
+  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+3):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4):hover a svg {
-  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+4):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5):hover a svg {
-  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+5):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6):hover a svg {
@@ -41546,11 +41546,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+6):hover a:hover {
-  background-color: rgba(158, 101, 194, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+7) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+7) svg {
-  color: white !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+7):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+7):hover a svg {
@@ -41562,7 +41562,7 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8):hover a svg {
@@ -41570,11 +41570,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+8):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+9) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+9) svg {
-  color: white !important;
+  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+9):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+9):hover a svg {
@@ -41586,11 +41586,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+10):hover a:hover {
@@ -41606,19 +41606,19 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+11):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+11):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+12):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13) svg {
@@ -41626,7 +41626,7 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+13):hover a:hover {
@@ -41634,47 +41634,47 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+14):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15):hover a svg {
-  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+15):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16) svg {
-  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+16):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17) svg {
-  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+17):hover a:hover {
@@ -41682,11 +41682,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+18):hover a:hover {
@@ -41694,11 +41694,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19) svg {
-  color: white !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+19):hover a:hover {
@@ -41710,7 +41710,7 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+20):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+20):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+20):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+20):hover a:hover {
@@ -41718,11 +41718,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21) svg {
-  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+21):hover a:hover {
@@ -41730,11 +41730,11 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22):hover a svg {
-  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+22):hover a:hover {
@@ -41742,43 +41742,43 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23):hover a svg {
-  stroke: white !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+23):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24):hover a svg {
-  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+24):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+25):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26):hover a svg {
@@ -41786,15 +41786,15 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+26):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+27):hover a:hover {
@@ -41802,55 +41802,55 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+28):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+29):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(239, 63, 62, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+30):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(158, 101, 194, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+31):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32) svg {
-  color: white !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32):hover a svg {
@@ -41858,19 +41858,19 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+32):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+33):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(158, 101, 194, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+34) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+34) svg {
@@ -41882,19 +41882,19 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+34):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+34):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(158, 101, 194, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+35):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36) svg {
@@ -41902,7 +41902,7 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+36):hover a:hover {
@@ -41910,23 +41910,23 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+37):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38) svg {
-  color: white !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38):hover a svg {
-  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+38):hover a:hover {
@@ -41934,55 +41934,55 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39):hover a svg {
-  stroke: white !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+39):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+40):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(102, 112, 189, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+41):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42):hover a svg {
-  stroke: white !important;
+  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+42):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+43) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+43) svg {
-  color: white !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+43):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+43):hover a svg {
@@ -41994,35 +41994,35 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44) svg {
-  color: white !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+44):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+45):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(239, 63, 62, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+46):hover a:hover {
@@ -42034,19 +42034,19 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+47):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+47):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+47):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+47):hover a:hover {
-  background-color: rgba(244, 244, 244, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48) svg {
-  color: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+48):hover a:hover {
@@ -42054,71 +42054,71 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+49):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50):hover a svg {
-  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+50):hover a:hover {
-  background-color: rgba(13, 164, 135, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51):hover a svg {
-  stroke: white !important;
+  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+51):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52):hover a svg {
-  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+52):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53) svg {
-  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+53):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(13, 164, 135, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54) svg {
-  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
+  color: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54):hover a svg {
-  stroke: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+54):hover a:hover {
@@ -42126,15 +42126,15 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55):hover a svg {
-  stroke: rgb(192.5139534884, 155.7953488372, 215.7046511628) !important;
+  stroke: white !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+55):hover a:hover {
-  background-color: rgba(169, 39, 249, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56) svg {
@@ -42142,27 +42142,27 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+56):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(244, 244, 244, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57):hover a svg {
-  stroke: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
+  stroke: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+57):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(116, 125, 198, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58):hover a svg {
@@ -42170,23 +42170,23 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+58):hover a:hover {
-  background-color: rgba(116, 125, 198, 0.15) !important;
+  background-color: rgba(158, 101, 194, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59) svg {
-  color: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  color: rgb(198.6351351351, 113.4324324324, 251.0675675676) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59):hover a svg {
-  stroke: rgb(155.4452054795, 161.9520547945, 212.0547945205) !important;
+  stroke: rgb(18.6186440678, 234.8813559322, 193.3474576271) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+59):hover a:hover {
-  background-color: rgba(239, 63, 62, 0.15) !important;
+  background-color: rgba(158, 101, 194, 0.15) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60) svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60) svg {
-  color: rgb(244.8564593301, 133.2775119617, 132.6435406699) !important;
+  color: rgb(170.2525510204, 175.7397959184, 220.2474489796) !important;
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60):hover a svg,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60):hover a svg {
@@ -42194,7 +42194,7 @@ body[class*=dark-] .main-white {
 }
 .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60):hover a:hover,
 .page-wrapper.horizontal-wrapper .page-body-wrapper .sidebar-wrapper[sidebar-layout=iconcolor-sidebar] .sidebar-main .sidebar-links > li:nth-child(7n+60):hover a:hover {
-  background-color: rgba(102, 112, 189, 0.15) !important;
+  background-color: rgba(169, 39, 249, 0.15) !important;
 }
 
 /**=====================

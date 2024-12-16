@@ -1,7 +1,3 @@
 {
-  "/[lng]/(MainLayout)/wallet/page": "app/[lng]/(MainLayout)/wallet/page.js",
-  "/[lng]/(MainLayout)/point/page": "app/[lng]/(MainLayout)/point/page.js",
-  "/[lng]/(MainLayout)/page/page": "app/[lng]/(MainLayout)/page/page.js",
-  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
-  "/[lng]/(MainLayout)/order/page": "app/[lng]/(MainLayout)/order/page.js"
+  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js"
 }
