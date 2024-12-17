@@ -48,6 +48,7 @@ const OrdersPage = () => {
                 <th scope="col">Order</th>
                 <th scope="col">Date</th>
                 <th scope="col">Status</th>
+                <th scope="col">Phone</th>
                 <th scope="col">Total</th>
                 <th scope="col">Actions</th>
               </tr>
@@ -59,6 +60,7 @@ const OrdersPage = () => {
                     <th scope="row">#{order.orderId}</th>
                     <td>{new Date(order.createdAt).toLocaleDateString()}</td>
                     <td>{order.status || "Processing"}</td>
+                    <td>{order.phone}</td>
                     <td>{order.totalAmount} AED</td>
                     <td>
                       <Link
