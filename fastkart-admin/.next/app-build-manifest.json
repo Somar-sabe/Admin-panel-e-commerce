@@ -15,6 +15,16 @@
       "static/chunks/main-app.js",
       "static/css/app/[lng]/layout.css",
       "static/chunks/app/[lng]/layout.js"
+    ],
+    "/[lng]/(MainLayout)/product/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/product/page.js"
+    ],
+    "/[lng]/(MainLayout)/order/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainLayout)/order/page.js"
     ]
   }
 }
