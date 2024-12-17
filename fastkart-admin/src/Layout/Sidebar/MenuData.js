@@ -40,8 +40,7 @@ const MENUITEMS = [
     icon: <RiListUnordered />,
     type: "sub",
     children: [
-      { title: "AllOrders", path: "/order", displayTitle: "All Orders", permission: ["order.index"] },
-      
+      { title: "AllOrders", path: "/order", displayTitle: "All Orders", permission: ["order.index"] },],
   },
   
 

@@ -1,6 +1,6 @@
 {
   "/Orders/view/[orderId]/page": "app/Orders/view/[orderId]/page.js",
   "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
-  "/[lng]/(MainLayout)/order/page": "app/[lng]/(MainLayout)/order/page.js",
-  "/[lng]/(MainLayout)/product/page": "app/[lng]/(MainLayout)/product/page.js"
+  "/[lng]/(MainLayout)/product/page": "app/[lng]/(MainLayout)/product/page.js",
+  "/[lng]/(MainLayout)/order/page": "app/[lng]/(MainLayout)/order/page.js"
 }
