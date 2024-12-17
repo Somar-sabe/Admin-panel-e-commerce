@@ -62,7 +62,7 @@ const OrdersPage = () => {
                     <td>{order.totalAmount} AED</td>
                     <td>
                       <Link
-                        href={`/dashboard/orders/view/${order.orderId}`}
+                        href={`/Orders/view/${order.orderId}`}
                         className="axil-btn view-btn"
                       >
                         View
