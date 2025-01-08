@@ -34,7 +34,13 @@
     "/[lng]/(MainLayout)/product/create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/[lng]/(MainLayout)/product/create/page.css",
       "static/chunks/app/[lng]/(MainLayout)/product/create/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

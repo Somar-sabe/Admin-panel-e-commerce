@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
+import './styles.css'; 
 
 const AddProductForm = () => {
+  
   const [product, setProduct] = useState({
     id: "",
     title: "",
@@ -76,6 +78,7 @@ const AddProductForm = () => {
   };
 
   return (
+    
     <form onSubmit={handleSubmit}>
       <div>
         <label>Product ID</label>

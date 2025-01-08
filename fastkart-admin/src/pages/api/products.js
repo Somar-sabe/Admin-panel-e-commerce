@@ -5,6 +5,7 @@ export default async function handler(req, res) {
     try {
       const { title, thumbnail, pCate, cate, price, productType, shortDes, description, addInfo } = req.body;
 
+      // Ensure required fields are present
       if (!title || !thumbnail || !pCate || !cate || !price || !productType) {
         return res.status(400).json({ success: false, message: "Missing required fields" });
       }
@@ -28,7 +29,15 @@ export default async function handler(req, res) {
         createdAt: new Date(),
       });
 
-      res.status(201).json({ success: true, message: "Product added successfully!", product: result.ops[0] });
+      // Return the inserted product with insertedId
+      res.status(201).json({
+        success: true,
+        message: "Product added successfully!",
+        product: {
+          ...req.body, // Send the product details back
+          _id: result.insertedId, // Attach the MongoDB document ID
+        },
+      });
     } catch (error) {
       console.error("Error adding product:", error);
       res.status(500).json({ success: false, message: "Failed to add product", error: error.message });
