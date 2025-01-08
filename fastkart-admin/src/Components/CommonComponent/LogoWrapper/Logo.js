@@ -9,7 +9,7 @@ const Logo = () => {
   const { i18Lang } = useContext(I18NextContext);
   return (
     <Link href={`/${i18Lang}/dashboard`}>
-      {state?.setLightLogo?.original_url ? <Image className="for-white" src={`${state?.setLightLogo?.original_url}`} alt="Light Logo" width={100} height={35} priority /> : <h2 className="text-white">Holster</h2>}
+     <h2 className="text-white">Holster</h2>
     </Link>
   );
 };

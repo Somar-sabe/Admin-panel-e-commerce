@@ -1,6 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/not-found": "app/not-found.js",
   "/Orders/view/[orderId]/page": "app/Orders/view/[orderId]/page.js",
   "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
   "/[lng]/(MainLayout)/order/page": "app/[lng]/(MainLayout)/order/page.js"
