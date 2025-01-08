@@ -53,7 +53,8 @@ const OrderView = ({ params: { orderId } }) => { // Directly destructuring order
         <strong>Phone:</strong> {orderDetails.phone}
       </p>
       <p>
-        <strong>Order Date:</strong> {new Date(orderDetails.orderDate).toLocaleString()}
+        <strong>Order Date:</strong> {new Date(orderDetails.createdAt).toLocaleString()}
+     
       </p>
       <p>
         <strong>Total Amount:</strong> {orderDetails.totalAmount} AED
