@@ -1,4 +1,4 @@
-// File: C:\Users\marke\Downloads\Admin-panel-e-commerce\fastkart-admin\src\app\[lng]\(MainLayout)\order\page.js
+// File: C:\Users\marke\Admin-panel-e-commerce\fastkart-admin\src\app\[lng]\(MainLayout)\order\page.js
 import * as entry from '../../../../../../src/app/[lng]/(MainLayout)/order/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
