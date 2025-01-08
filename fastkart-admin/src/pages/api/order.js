@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       if (!orderId) {
         return res.status(400).json({
           success: false,
-          message: "Order ID is required to fetch the order details."
+          message: "Order ID is required to fetch the order details.",
         });
       }
 
@@ -23,18 +23,27 @@ export default async function handler(req, res) {
       if (!order) {
         return res.status(404).json({
           success: false,
-          message: "Order not found with the provided ID."
+          message: "Order not found with the provided ID.",
         });
       }
 
-      // Return the order details if found
+      // Map through cartItems to construct full URLs for thumbnails
+      const BASE_URL = "https://www.holster-uae.com"; // Replace with the actual base URL of your website
+      order.cartItems = order.cartItems.map((item) => ({
+        ...item,
+        thumbnail: item.thumbnail.startsWith("/")
+          ? `${BASE_URL}${item.thumbnail}` // Prepend base URL if the path is relative
+          : item.thumbnail, // Keep as is if it's already a full URL
+      }));
+
+      // Return the order details with updated thumbnails
       res.status(200).json({ success: true, order: order });
     } catch (error) {
       console.error("Error fetching order:", error);
       res.status(500).json({
         success: false,
         message: "Failed to fetch the order.",
-        error: error.message
+        error: error.message,
       });
     }
   } else {

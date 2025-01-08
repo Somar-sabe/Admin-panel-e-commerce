@@ -4,12 +4,7 @@ const nextConfig = {
   swcMinify: true,
   env: {
     // For Local Server
-    
-    //  API_PROD_URL: "https://fastkart-admin-json.vercel.app/api/",
-
-   API_PROD_URL: "http://localhost:3000/api/",
-
-    // API_PROD_URL: "https://laravel.pixelstrap.net/fastkart/api",
+    API_PROD_URL: "http://localhost:3000/api/",
   },
   redirects: async () => {
     return [
@@ -42,6 +37,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "laravel.pixelstrap.net",
+      },
+      {
+        protocol: "https", // Ensure the protocol is 'https' if the website uses secure connection
+        hostname: "www.holster-uae.com", // Add your domain here
       },
     ],
   },
