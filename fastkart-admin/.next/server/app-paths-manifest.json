@@ -1,4 +1,8 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Orders/view/[orderId]/page": "app/Orders/view/[orderId]/page.js"
+  "/api/self/route": "app/api/self/route.js",
+  "/api/settings/route": "app/api/settings/route.js",
+  "/api/notifications/route": "app/api/notifications/route.js",
+  "/Orders/view/[orderId]/page": "app/Orders/view/[orderId]/page.js",
+  "/[lng]/(MainLayout)/dashboard/page": "app/[lng]/(MainLayout)/dashboard/page.js",
+  "/[lng]/(MainLayout)/product/create/page": "app/[lng]/(MainLayout)/product/create/page.js"
 }
