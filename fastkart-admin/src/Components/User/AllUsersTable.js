@@ -46,7 +46,7 @@ const AllUsersTable = () => {
             <thead>
               <tr>
                 <th scope="col">name</th>
-                <th scope="col">Created at</th>
+                <th scope="col">Date</th>
                 <th scope="col">Phone</th>
                 <th scope="col">Email</th>
                 <th scope="col">Company</th>
