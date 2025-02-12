@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const OrdersPage = () => {
+const AllUsersTable = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -83,4 +83,4 @@ const OrdersPage = () => {
   );
 };
 
-export default OrdersPage;
+export default AllUsersTable;
