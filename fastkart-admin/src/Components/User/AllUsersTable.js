@@ -59,7 +59,7 @@ const AllUsersTable = () => {
               {orders.length > 0 ? (
                 orders.map((order) => (
                   <tr key={order._id}>
-                    <th scope="row">#{order.name}</th>
+                    <th scope="row">{order.name}</th>
                     <td>{new Date(order.createdAt).toLocaleDateString()}</td>
                     <td>{order.phone}</td>
                     <td>{order.email}</td>
