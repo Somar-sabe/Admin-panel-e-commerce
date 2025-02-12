@@ -12,7 +12,7 @@ const AllUsersTable = () => {
       try {
         const res = await fetch("/api/contact");
         if (!res.ok) {
-          throw new Error("Failed to fetch orders");
+          throw new Error("Failed to fetch contacts");
         }
         const data = await res.json();
         if (data.success) {
