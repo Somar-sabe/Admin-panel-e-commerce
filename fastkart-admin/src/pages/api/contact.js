@@ -6,7 +6,7 @@ export default async function handler(req, res) {
       // Use the clientPromise to get the MongoDB client
       const client = await clientPromise;
       const db = client.db("Shisha");
-      const ordersCollection = db.collection("contact");
+      const ordersCollection = db.collection("contacts");
 
       // Fetch all orders
       const result = await ordersCollection.find({}).toArray();

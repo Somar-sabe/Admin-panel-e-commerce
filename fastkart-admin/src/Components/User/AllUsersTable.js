@@ -35,7 +35,7 @@ const AllUsersTable = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Orders</h1>
+      <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Contacts</h1>
       {loading ? (
         <p>Loading...</p>
       ) : error ? (
