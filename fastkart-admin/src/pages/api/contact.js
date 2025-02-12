@@ -14,7 +14,7 @@ export default async function handler(req, res) {
       if (result.length === 0) {
         return res.status(404).json({
           success: false,
-          message: "No orders found."
+          message: "No contacts found."
         });
       }
 
